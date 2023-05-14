@@ -16,11 +16,11 @@ alias \
 	cp="cp -iv" \
 	bc="bc -ql" \
 	mkd="mkdir -pv" \
+        brillo="doas brillo" \
 	yt="yt-dlp --embed-metadata -i" \
 	yta="yt -x -f bestaudio/best" \
 	ffmpeg="ffmpeg -hide_banner" \
-  v="nvim"        
-  l="ls -all"
+        wget="wget --no-hsts" \
 # Colorize commands when possible.
 alias \
 	ls="ls -hN --color=auto --group-directories-first" \
@@ -29,8 +29,9 @@ alias \
 	ccat="highlight --out-format=ansi" \
         sxiv="nsxiv" \
         ip="ip -color=auto" \
-        gcl="git clone --depth=1" \
+        rky="doas remapkey" \
 alias \
+    sudo="doas" \
     zzz="doas zzz" \
     x="startx"
 
@@ -50,13 +51,8 @@ alias \
 	sdn="shutdown -h now" \
 	e="$EDITOR" \
 	v="$EDITOR" \
-	z="zathura"  \
-        b="bat" \
-        c="cat" \
+        rw="rustlings watch"
 
-
-alias \
-  yarn="yarn --cache-folder $HOME/.config/yarn"\
 
 alias \
         gcl="git clone --depth=1" \

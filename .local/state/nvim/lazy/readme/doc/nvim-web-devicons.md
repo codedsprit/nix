@@ -1,3 +1,8 @@
+# Notice
+Nerd fonts moved some symbols with version 3.0. Version 2.3 is meant for transition, supporting both version 2 and version 3 icons.
+
+Nvim-web-devicons requires version 2.3 or above to work properly. If you are unable to update please use your plugin manager to pin version of nvim-web-dev icons to `nerd-v2-compat` tag.
+
 # Nvim-web-devicons
 
 A `lua` fork of [vim-devicons](https://github.com/ryanoasis/vim-devicons). This plugin provides the same icons _as well as_ colors for each icon.
@@ -145,10 +150,10 @@ require("nvim-web-devicons").set_icon {
 }
 ```
 
-You can override the default icon with the `set_default_icon(icon, color)` function:
+You can override the default icon with the `set_default_icon(icon, color, cterm_color)` function:
 
 ```lua
-require("nvim-web-devicons").set_default_icon('', '#6d8086')
+require("nvim-web-devicons").set_default_icon('', '#6d8086', 65)
 ```
 
 ### Getting icons by filetype

@@ -1,0 +1,20 @@
+[INFO  Tue May  9 11:11:22 2023] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=rust-analyzer) {}
+[INFO  Tue May  9 11:11:31 2023] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:193: Installation succeeded for Package(name=rust-analyzer)
+[INFO  Tue May  9 11:16:59 2023] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=python-lsp-server) {}
+[INFO  Tue May  9 11:17:34 2023] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:193: Installation succeeded for Package(name=python-lsp-server)
+[INFO  Tue May  9 12:05:08 2023] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=rust-analyzer) {}
+[INFO  Tue May  9 12:05:18 2023] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:193: Installation succeeded for Package(name=rust-analyzer)
+[INFO  Tue May  9 13:54:26 2023] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=clangd) {}
+[INFO  Tue May  9 13:54:51 2023] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=lua-language-server) {}
+[INFO  Tue May  9 13:55:38 2023] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:193: Installation succeeded for Package(name=lua-language-server)
+[ERROR Tue May  9 13:56:30 2023] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=clangd) error="Installation was aborted."
+[INFO  Tue May  9 13:56:35 2023] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=clangd) {}
+[ERROR Tue May  9 13:56:51 2023] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=clangd) error="Installation was aborted."
+[INFO  Tue May  9 18:16:24 2023] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=bash-debug-adapter) {}
+[INFO  Tue May  9 18:16:28 2023] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:193: Installation succeeded for Package(name=bash-debug-adapter)
+[INFO  Tue May  9 18:16:37 2023] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=bash-debug-adapter) {}
+[INFO  Tue May  9 18:16:39 2023] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:193: Installation succeeded for Package(name=bash-debug-adapter)
+[INFO  Tue May  9 18:16:42 2023] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=bash-language-server) {}
+[INFO  Tue May  9 18:17:05 2023] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:193: Installation succeeded for Package(name=bash-language-server)
+[INFO  Wed May 10 09:36:23 2023] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=rust-analyzer) {}
+[ERROR Wed May 10 09:36:38 2023] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=rust-analyzer) error="Installation was aborted."

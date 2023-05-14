@@ -1,0 +1,209 @@
+{
+   "add_site_to_list": {
+      "message": "Webseite zur Liste hinzufügen"
+   },
+   "auto_day_at_location": {
+      "message": "Auto (Tag vor Ort)"
+   },
+   "auto_day_time": {
+      "message": "Automatisch (tagsüber)"
+   },
+   "auto_night_at_location": {
+      "message": "Auto (Nacht am Standort)"
+   },
+   "auto_night_time": {
+      "message": "Automatisch (Nacht)"
+   },
+   "auto_system_is_dark": {
+      "message": "Auto (System ist dunkel)"
+   },
+   "auto_system_is_light": {
+      "message": "Auto (System ist hell)"
+   },
+   "automation": {
+      "message": "Automatisierung"
+   },
+   "brightness": {
+      "message": "Helligkeit"
+   },
+   "change_browser_theme": {
+      "message": "Ändere das Browserdesign"
+   },
+   "click_to_set_shortcut": {
+      "message": "Klicken Sie, um die Verknüpfung festzulegen"
+   },
+   "configure_automation": {
+      "message": "Automatisierung konfigurieren"
+   },
+   "configure_site_toggle": {
+      "message": "Websiteumschaltung konfigurieren"
+   },
+   "contrast": {
+      "message": "Kontrast"
+   },
+   "custom_browser_theme_off": {
+      "message": "Standard"
+   },
+   "custom_browser_theme_on": {
+      "message": "Angepasst"
+   },
+   "dark": {
+      "message": "Dunkel"
+   },
+   "dark_theme_detected": {
+      "message": "Dunkles Design erkannt"
+   },
+   "detect_dark_theme": {
+      "message": "Dunkles Thema erkennen"
+   },
+   "detect_website_dark_theme": {
+      "message": "Erkennen Sie das eigene dunkle Thema der Website"
+   },
+   "donate": {
+      "message": "Spenden"
+   },
+   "engine_dynamic": {
+      "message": "Dynamisch"
+   },
+   "engine_filter": {
+      "message": "Filter"
+   },
+   "engine_filter_plus": {
+      "message": "Filter+"
+   },
+   "engine_static": {
+      "message": "Statisch"
+   },
+   "extension_description": {
+      "message": "Dunkles Design für jede Website. Schonen Sie Ihre Augen und verwenden Sie Dark Reader für die Nacht und das tägliche Surfen."
+   },
+   "extension_toggle_shortcut": {
+      "message": "Tastenkombination zum Ein-/Ausschalten der Erweiterung"
+   },
+   "filter": {
+      "message": "Filter"
+   },
+   "grayscale": {
+      "message": "Graustufe"
+   },
+   "help": {
+      "message": "Hilfe"
+   },
+   "invert_listed_only": {
+      "message": "Nur aufgelistete invertieren"
+   },
+   "latitude": {
+      "message": "Breitengrad"
+   },
+   "light": {
+      "message": "Hell"
+   },
+   "loading_please_wait": {
+      "message": "Lädt, bitte warten"
+   },
+   "local_files_forbidden": {
+      "message": "Zugriff nicht erlaubt auf\nlokale Dateien"
+   },
+   "longitude": {
+      "message": "Längengrad"
+   },
+   "mode": {
+      "message": "Modus"
+   },
+   "more": {
+      "message": "Mehr"
+   },
+   "news": {
+      "message": "Neuigkeiten"
+   },
+   "not_invert_listed": {
+      "message": "Nicht aufgelistete invertieren"
+   },
+   "off": {
+      "message": "Aus"
+   },
+   "on": {
+      "message": "Ein"
+   },
+   "only_for": {
+      "message": "Nur für"
+   },
+   "only_for_description": {
+      "message": "Einstellungen nur auf aktuelle Webseite anwenden"
+   },
+   "open_dev_tools": {
+      "message": "Erweitert"
+   },
+   "page_in_dark_list": {
+      "message": "Seite befindet sich auf der\nglobalen Dunkel-Liste"
+   },
+   "page_protected": {
+      "message": "Diese Seite ist durch\nden Browser geschützt"
+   },
+   "privacy": {
+      "message": "Datenschutz"
+   },
+   "read_more": {
+      "message": "Weiterlesen"
+   },
+   "select_font": {
+      "message": "Schriftart auswählen"
+   },
+   "sepia": {
+      "message": "Sepia"
+   },
+   "set_active_hours": {
+      "message": "Nutzungszeit ändern"
+   },
+   "set_location": {
+      "message": "Nach lokalem Sonnenuntergang aktivieren"
+   },
+   "setup_add_site_hotkey": {
+      "message": "Ein Hotkey zum Hinzufügen der Seite festlegen"
+   },
+   "setup_hotkey_toggle_extension": {
+      "message": "Hotkey zum (de)aktivieren\nder Erweiterung"
+   },
+   "setup_hotkey_toggle_site": {
+      "message": "Hotkey zum Umschalten der\naktuellen Webseite einrichten"
+   },
+   "site_list": {
+      "message": "Webseiteliste"
+   },
+   "site_toggle": {
+      "message": "Site-Umschaltung"
+   },
+   "store_listing": {
+      "message": "Zum Schutz der Augen ermöglicht diese Erweiterung das Erstellen dunkler Farblayouts für Webseiten. Dabei invertiert Dark Reader helle Farben, macht sie kontrastreich und nachts gut lesbar.\n\nHelligkeit, Kontrast, Sepia-Filter, Dark-Modus, Schrifteinstellungen und Ignorier-Liste können manuell verwaltet und individuell eingestellt werden.\n\nKönnten wir Sie bitten, die Appentwicklung mit einer Spende zu unterstützen? Möglicherweise sehen Sie im Einstellungs-Popup Neuigkeiten über Dark Reader. Es gibt Entwicklertools für erfahrene Benutzer.\n\nDark Reader zeigt dabei keine Werbung oder sendet Benutzerdaten irgendwohin. Es ist komplett quelloffen: https://github.com/darkreader/darkreader.\n\nDeaktivieren Sie vor der Installation ähnliche Erweiterungen. Genieße das Zusehen!"
+   },
+   "support_out_work": {
+      "message": "Unterstützen Sie unsere Arbeit"
+   },
+   "system_dark_mode": {
+      "message": "Systemfarben verwenden"
+   },
+   "system_dark_mode_chromium_warning": {
+      "message": "Diese Funktion könnte vielleicht nicht, durch\neinen Bug in ihren Brower, funktionieren"
+   },
+   "system_dark_mode_description": {
+      "message": "Aktivieren, wenn das System dunkel ist"
+   },
+   "text_stroke": {
+      "message": "Textstärke"
+   },
+   "theme_generation_mode": {
+      "message": "Them-Generierungsmodus"
+   },
+   "toggle_current_site": {
+      "message": "Aktuelle Seite umschalten"
+   },
+   "toggle_extension": {
+      "message": "Erweiterung"
+   },
+   "try_experimental_theme_engines": {
+      "message": "Probiere **experimentelle** Style-Engines aus:\n**Filter+** bewahrt die Farbsättigung, verwendet GPU\n**Statisches** generiert einfaches schnelles Design\n**Dynamisches Thema** analysiert Farben und Bilder"
+   },
+   "website_toggle_shortcut": {
+      "message": "Tastenkombination zum Umschalten der Website"
+   }
+}

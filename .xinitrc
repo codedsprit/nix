@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # xinitrc runs automatically when you run startx.
 
@@ -8,28 +8,4 @@ else
 	. "$HOME/.xprofile"
 fi
 
-
-#-------- Pywal ----------#
-#dir=~/.local/walls/
-#wall=b.jpg
-#wal -i ${dir}${wall}
-
-#------- utils ------------# 
-
-picom --experimental-backend &
-#dunst &
-slstatus &
-
-##------- Ewm -------------#
-#metis_ewm(){ 
-#  autostart & 
-#  exec dbus-launch ewm &
-#
-#}
-#
-#unset metis_ewm
-#------- Sound -----------#
-pipewire-pulse &
-wireplumber &
-pipewire &
 exec dbus-launch dwm

@@ -19,7 +19,7 @@
 # 200 means double height. Accepts only non-negative values.
 ; sensitivity = 100
 
-# The number of bars (0-512). 0 sets it to auto (fill up console).
+# The number of bars (0-200). 0 sets it to auto (fill up console).
 # Bars' width and space between bars in number of characters.
 ; bars = 0
 ; bar_width = 2
@@ -30,10 +30,6 @@
 # For SDL width and space between bars is in pixels, defaults are:
 ; bar_width = 20
 ; bar_spacing = 5
-
-# sdl_glsl have these default values, they are only used to calulate max number of bars.
-; bar_width = 1
-; bar_spacing = 0
 
 
 # Lower and higher cutoff frequencies for lowest and highest bars
@@ -53,7 +49,6 @@
 
 # Audio capturing method. Possible methods are: 'pulse', 'alsa', 'fifo', 'sndio' or 'shmem'
 # Defaults to 'pulse', 'alsa' or 'fifo', in that order, dependent on what support cava was built with.
-# On windows this is automatic and no input settings are needed.
 #
 # All input methods uses the same config variable 'source'
 # to define where it should get the audio.
@@ -84,8 +79,7 @@
 
 [output]
 
-# Output method. Can be 'ncurses', 'noncurses', 'raw', 'noritake', 'sdl'
-# or 'sdl_glsl'.
+# Output method. Can be 'ncurses', 'noncurses', 'raw', 'noritake' or 'sdl'.
 # 'noncurses' uses a custom framebuffer technique and prints only changes
 # from frame to frame in the terminal. 'ncurses' is default if supported.
 #
@@ -97,15 +91,7 @@
 #  in graphic mode. It only support the 3000 series graphical VFDs for now.
 #
 # 'sdl' uses the Simple DirectMedia Layer to render in a graphical context.
-# 'sdl_glsl' uses SDL to create an OpenGL context. Write your own shaders or
-# use one of the predefined ones.
 ; method = ncurses
-
-# Orientation of the visualization. Can be 'bottom', 'top', 'left' or 'right'.
-# Default is 'bottom'. Other orientations are only supported on sdl and ncruses
-# output. Note: many fonts have weird glyphs for 'top' and 'right' characters,
-# which can make ncurses not look right.
-; orientation = bottom
 
 # Visual channels. Can be 'stereo' or 'mono'.
 # 'stereo' mirrors both channels with low frequencies in center.
@@ -139,39 +125,23 @@
 ; sdl_x = -1
 ; sdl_y= -1
 
-# set label on bars on the x-axis. Can be 'frequency' or 'none'. Default: 'none'
-# 'frequency' displays the lower cut off frequency of the bar above.
-# Only supported on ncurses and noncurses output.
-; xaxis = none
-
-# enable alacritty synchronized updates. 1 = on, 0 = off
-# removes flickering in alacritty terminal emeulator.
-# defaults to off since the behaviour in other terminal emulators is unknown
-; alacritty_sync = 0
-
-# Shaders for sdl_glsl, located in $HOME/.config/cava/shaders
-; vertex_shader = pass_through.vert
-; fragment_shader = normalized_bars.frag
-
-; for glsl output mode, keep rendering even if no audio
-; continuous_rendering = 0
-
 [color]
 
 # Colors can be one of seven predefined: black, blue, cyan, green, magenta, red, white, yellow.
 # Or defined by hex code '#xxxxxx' (hex code must be within ''). User defined colors requires
-# a terminal that can change color definitions such as Gnome-terminal or rxvt.
+# ncurses output method and a terminal that can change color definitions such as Gnome-terminal or rxvt.
+# if supported, ncurses mode will be forced on if user defined colors are used.
 # default is to keep current terminal color
 ; background = default
 ; foreground = default
 
-# SDL and sdl_glsl only support hex code colors, these are the default:
+# SDL only support hex code colors, these are the default:
 ; background = '#111111'
-; foreground = '#33ffff'
+; foreground = '#33cccc'
 
 
-# Gradient mode, only hex defined colors are supported,
-# background must also be defined in hex or remain commented out. 1 = on, 0 = off.
+# Gradient mode, only hex defined colors (and thereby ncurses mode) are supported,
+# background must also be defined in hex  or remain commented out. 1 = on, 0 = off.
 # You can define as many as 8 different colors. They range from bottom to top of screen
 ; gradient = 0
 ; gradient_count = 8
@@ -207,10 +177,10 @@
 # DEPRECATED as of 0.8.0
 ; ignore = 0
 
-# Noise reduction, int 0 - 100. default 77
+# Noise reduction, float 0 - 1. default 0.77
 # the raw visualization is very noisy, this factor adjusts the integral and gravity filters to keep the signal smooth
 # 1 will be very slow and smooth, 0 will be fast but noisy.
-; noise_reduction = 77
+; noise_reduction = 0.77
 
 
 [eq]
@@ -218,6 +188,8 @@
 # This one is tricky. You can have as much keys as you want.
 # Remember to uncomment more then one key! More keys = more precision.
 # Look at readme.md on github for further explanations and examples.
+# DEPRECATED as of 0.8.0 can be brought back by popular request, open issue at:
+# https://github.com/karlstav/cava
 ; 1 = 1 # bass
 ; 2 = 1
 ; 3 = 1 # midtone
