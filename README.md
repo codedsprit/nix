@@ -14,7 +14,7 @@
 		<img alt="Repo Size" src="https://img.shields.io/github/repo-size/codedsprit/dotfiles?color=%23DDB6F2&label=SIZE&logo=codesandbox&style=for-the-badge&logoColor=D9E0EE&labelColor=302D41"/></a>
 </p>
 <p align="center">
-	<img src="https://github.com/codedsprit/files/blob/main/dotfiles/artix.png" style="border-redius:20%"/>
+	<img src="https://github.com/codedsprit/dotfiles/blob/main/assets/artix.png" style="border-redius:20%"/>
 										 </p>
 										
 <p align="center">Copyright &copy; 2023<a href="https://codedsprit.xyz" target="_blank"> @codedsprit</a> 🌺<a href="https://opensource.org/licenses/MIT">MIT </a>									 
