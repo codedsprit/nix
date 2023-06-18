@@ -17,4 +17,4 @@
 	<img src="https://github.com/codedsprit/dotfiles/blob/main/assets/artix.png" style="border-redius:20%"/>
 										 </p>
 										
-<p align="center">Copyright &copy; 2023<a href="https://codedsprit.xyz" target="_blank"> @codedsprit</a> 🌺<a href="https://opensource.org/licenses/MIT">MIT </a>									 
+<p align="center">Copyright &copy; 2023<a href="https://codedsprit.xyz" target="_blank"> @codedsprit</a> 🌺 <a href="https://opensource.org/licenses/MIT">MIT </a>									 
