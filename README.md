@@ -17,4 +17,4 @@
 	<img src="https://github.com/codedsprit/dotfiles/blob/main/assets/artix.png" style=""/>
 										 </p>
 <p align="center"><img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" /></p>										
-<p align="center">Copyright &copy; 2021-present🍦 <a href="https://github.com/codedsprit" target="_blank">codedsprit</a>
+<p align="center">Copyright &copy; 2023-present🍦 <a href="https://github.com/codedsprit" target="_blank">codedsprit</a>
