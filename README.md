@@ -14,7 +14,7 @@
 		<img alt="Repo Size" src="https://img.shields.io/github/repo-size/codedsprit/charmlinux?color=%23DDB6F2&label=SIZE&logo=codesandbox&style=for-the-badge&logoColor=D9E0EE&labelColor=302D41"/></a>
 </p>
 <p align="center">
-	<img src="https://github.com/codedsprit/charmlinux/blob/main/assets/artix.png" style=""/>
+	<img src="https://github.com/codedsprit/nix-config/blob/artix/assets/artix.png" style=""/>
 										 </p>
 <p align="center"><img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" /></p>										
 <p align="center">Copyright &copy; 2023-present🍦 <a href="https://github.com/codedsprit" target="_blank">codedsprit</a>
