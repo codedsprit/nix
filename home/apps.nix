@@ -5,11 +5,11 @@
     enable = true;
   };
 
-  programs.git = {
-    enable = true;
-    userName = "codedsprit";
-    userEmail = "roshan0x01@gmail.com";
-  };
+#  programs.git = {
+#    enable = true;
+#    userName = "codedsprit";
+#    userEmail = "roshan0x01@gmail.com";
+#  };
 
   programs.zoxide = {
     enable = true;
