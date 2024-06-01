@@ -1,4 +1,4 @@
-{ config, pkgs, lib, ... }:
+{ config,  lib, ... }:
 
 {
   home.sessionPath = [
@@ -16,13 +16,9 @@
 
     ZDOTDIR = "${config.xdg.configHome}/zsh";
 
-    NIX_PATH = "${config.home.homeDirectory}/.nix-defexpr/channels:/nix/var/nix/profiles/per-user/root/channels";
-
-
     GTK2_RC_FILES = lib.mkForce "${config.xdg.configHome}/gtk-3.0/gtkrc-2.0";
     GOPATH = "${config.xdg.dataHome}/go";
     UNISON = "${config.xdg.dataHome}/unison";
-    PASSWORD_STORE_DIR = "${config.xdg.dataHome}/password_store";
 
     RUSTUP_HOME = "${config.xdg.dataHome}/rustup";
     CARGO_HOME = "${config.xdg.dataHome}/cargo";

@@ -45,8 +45,8 @@ decorations = "Full"
 # opacity= 0.7
 
 [window.padding]
-x = 10
-y = 10
+x = 5
+y = 5
 
 [window.class]
 general = "Alacritty"
