@@ -26,7 +26,6 @@
 
 
     acpi
-    doas
 
     xdg-desktop-portal-hyprland
     brave
@@ -48,6 +47,8 @@
     python3
     zathura
     numbat
+    docker 
+    docker-compose
 
   ];
 }

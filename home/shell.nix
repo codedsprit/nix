@@ -49,7 +49,6 @@
     };
 
     shellAliases = {
-      sudo = "doas";
       cat = "bat --theme=Catppuccin-macchiato";
       ls = "eza --icons  -T -L 1 -x";
       ll = "eza --icons  -T -L 2 -x";

@@ -35,11 +35,13 @@ in
   users.users.${UserName} = {
     isNormalUser = true;
     description = "User space for ${UserName}";
-    extraGroups = [ "networkmanager" "wheel" "video" "audio" "storage" ];
+    extraGroups = [ "networkmanager" "wheel" "video" "audio" "storage" "docker"];
     packages = with pkgs; [ ];
   };
 
   programs.zsh.enable = true;
+  virtualisation.docker.enable = true;
+
 
   programs.hyprland = {
     enable = true;
@@ -56,13 +58,7 @@ in
 
   users.defaultUserShell = pkgs.zsh;
 
-  security.doas.enable = true;
-  security.sudo.enable = false;
-  security.doas.extraRules = [{
-    users = [ UserName ];
-    keepEnv = true;
-    persist = true;
-  }];
+  security.sudo.enable = true;
 
   sound.enable = false;
   hardware.pulseaudio.enable = false;
