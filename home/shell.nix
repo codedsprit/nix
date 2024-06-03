@@ -3,6 +3,8 @@
 {
   home.sessionPath = [
     "/home/pwn/.local/bin"
+    "/home/pwn/.local/share/go/bin/"
+    "/home/pwn/.local/share/cargo/bin/"
   ];
 
   home.sessionVariables = {
@@ -46,7 +48,7 @@
       share = true;
     };
 
-    shellAliases = rec {
+    shellAliases = {
       sudo = "doas";
       cat = "bat --theme=Catppuccin-macchiato";
       ls = "eza --icons  -T -L 1 -x";

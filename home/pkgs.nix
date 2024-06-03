@@ -8,6 +8,7 @@
     slurp
     gopls
     nodePackages_latest.bash-language-server
+    pfetch
 
 
     eza
