@@ -78,5 +78,12 @@ in
   };
 
   system.stateVersion = "23.11";
+
+# Other hosts 
+
+networking.extraHosts =
+  ''
+    10.0.0.1 server
+  '';
 }
 

@@ -37,7 +37,6 @@
     wf-recorder
     hyprpaper
     alacritty
-    burpsuite
 
     rustup
     #cargo-watch
@@ -47,7 +46,6 @@
     samba
     exploitdb
     gobuster
-    firefox
 
   ];
 }
